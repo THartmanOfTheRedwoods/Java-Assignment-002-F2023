@@ -3,7 +3,7 @@ public class ArchimedesPiMethod {
     public static void main(String[] args) {
         float n = 8;
         float b = 360 / n;
-        float a = (1/2f) * b;
+        double a = (1/2.0) * b;
         double newA = Math.toRadians(a);
         double s = 2 * Math.sin(newA);
         double p = n * s;
