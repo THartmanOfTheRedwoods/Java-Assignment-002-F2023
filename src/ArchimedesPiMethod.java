@@ -12,6 +12,7 @@ public class ArchimedesPiMethod {
     public static void main(String[] args) {
         Scanner scanner =new Scanner(System.in);
         System.out.print("Enter number of sides for the polygon: ");
+
         int n = scanner.nextInt();
         System.out.println("The number of sides="+n);
         System.out.println();
